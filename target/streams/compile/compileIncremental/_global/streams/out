@@ -14,45 +14,45 @@
 [0m[[0m[0mdebug[0m] [0m[0mCreating plain compiler interface for 2.13.7.[0m
 [0m[[0m[0mdebug[0m] [0m[0m  > Arguments: [0m
 [0m[[0m[0mdebug[0m] [0m[0m	-d[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_9b7208d7[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_c0396ca2[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-nowarn[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	/home/runner/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.7/scala-library-2.13.7.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	/home/runner/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.5.7/compiler-interface-1.5.7.jar:/home/runner/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.5.0/util-interface-1.5.0.jar:/home/runner/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.13/1.5.7/compiler-bridge_2.13-1.5.7-sources.jar:/home/runner/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.7/scala-compiler-2.13.7.jar:/home/runner/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.7/scala-reflect-2.13.7.jar:/home/runner/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.20.0/jline-3.20.0.jar:/home/runner/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_dcc67973/scala/ZincCompat.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_dcc67973/xsbt/API.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_dcc67973/xsbt/AbstractZincFile.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_dcc67973/xsbt/Analyzer.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_dcc67973/xsbt/CallbackGlobal.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_dcc67973/xsbt/ClassName.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_dcc67973/xsbt/Compat.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_dcc67973/xsbt/CompilerBridge.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_dcc67973/xsbt/ConsoleBridge.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_dcc67973/xsbt/DelegatingReporter.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_dcc67973/xsbt/Dependency.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_dcc67973/xsbt/ExtractAPI.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_dcc67973/xsbt/ExtractUsedNames.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_dcc67973/xsbt/GlobalHelpers.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_dcc67973/xsbt/InteractiveConsoleBridge.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_dcc67973/xsbt/InteractiveConsoleFactoryBridge.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_dcc67973/xsbt/InteractiveConsoleHelper.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_dcc67973/xsbt/InteractiveConsoleResponse.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_dcc67973/xsbt/JarUtils.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_dcc67973/xsbt/JavaUtils.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_dcc67973/xsbt/LocalToNonLocalClass.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_dcc67973/xsbt/LocateClassFile.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_dcc67973/xsbt/Log.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_dcc67973/xsbt/Message.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_dcc67973/xsbt/ScaladocBridge.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_6b633ecc/scala/ZincCompat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_6b633ecc/xsbt/API.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_6b633ecc/xsbt/AbstractZincFile.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_6b633ecc/xsbt/Analyzer.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_6b633ecc/xsbt/CallbackGlobal.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_6b633ecc/xsbt/ClassName.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_6b633ecc/xsbt/Compat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_6b633ecc/xsbt/CompilerBridge.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_6b633ecc/xsbt/ConsoleBridge.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_6b633ecc/xsbt/DelegatingReporter.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_6b633ecc/xsbt/Dependency.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_6b633ecc/xsbt/ExtractAPI.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_6b633ecc/xsbt/ExtractUsedNames.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_6b633ecc/xsbt/GlobalHelpers.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_6b633ecc/xsbt/InteractiveConsoleBridge.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_6b633ecc/xsbt/InteractiveConsoleFactoryBridge.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_6b633ecc/xsbt/InteractiveConsoleHelper.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_6b633ecc/xsbt/InteractiveConsoleResponse.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_6b633ecc/xsbt/JarUtils.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_6b633ecc/xsbt/JavaUtils.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_6b633ecc/xsbt/LocalToNonLocalClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_6b633ecc/xsbt/LocateClassFile.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_6b633ecc/xsbt/Log.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_6b633ecc/xsbt/Message.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_6b633ecc/xsbt/ScaladocBridge.scala[0m
 [0m[[0m[0mdebug[0m] [0m[0m      [0m
-[0m[[0m[0minfo[0m] [0m[0m  Compilation completed in 8.357s.[0m
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 537c20df for Scala compiler version 2.13.7[0m
+[0m[[0m[0minfo[0m] [0m[0m  Compilation completed in 8.165s.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 2eff61d4 for Scala compiler version 2.13.7[0m
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-Xplugin:/home/runner/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.13.7/1.8.0/scalajs-compiler_2.13.7-1.8.0.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	/home/runner/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.7/scala-library-2.13.7.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	/home/runner/work/ableton-live-themes/ableton-live-themes/target/scala-2.13/classes:/home/runner/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-library_2.13/1.8.0/scalajs-library_2.13-1.8.0.jar:/home/runner/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_sjs1_2.13/2.0.1/scala-xml_sjs1_2.13-2.0.1.jar:/home/runner/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-dom_sjs1_2.13/2.0.0/scalajs-dom_sjs1_2.13-2.0.0.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 13.039206674 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 13.251605654 s[0m
 [0m[[0m[0minfo[0m] [0m[0mdone compiling[0m
