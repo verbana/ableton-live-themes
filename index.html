@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Verbana | Ableton Live Theme Editor</title>
+        <meta name="description" content="Create custom themes for Ableton Live 11" />
+
+        <!-- Twitter Card -->
+        <meta name="twitter:card"           content="summary_large_image" />
+        <meta name="twitter:site"           content="@VerbanaMusic" />
+        <meta name="twitter:creator"        content="@VerbanaMusic" />
+        <meta name="twitter:title"          content="Verbana | Ableton Live Theme Editor" />
+        <meta name="twitter:description"    content="Create custom themes for Ableton Live 11" />
+        <meta name="twitter:image"          content="https://themes.verbana.io/assets/card.1641079208.jpg" />
+
+        <!-- Open Graph -->
+        <meta property="og:url"             content="https://themes.verbana.io" />
+        <meta property="og:type"            content="website" />
+        <meta property="og:title"           content="Verbana | Ableton Live Theme Editor" />
+        <meta property="og:description"     content="Create custom themes for Ableton Live 11" />
+        <meta property="og:image"           content="https://themes.verbana.io/assets/card.1641079208.jpg" />
+        <meta property="og:image:type"      content="image/jpeg" />
+        <meta property="og:image:width"     content="1815" />
+        <meta property="og:image:height"    content="1021" />
+        <meta property="og:image:alt"       content="A custom Ableton Live theme" />
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        </style>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+                theme: {
+                    fontFamily: {
+                        'sans': ['"Montserrat"', 'ui-sans-serif'],
+                        'mono': ['"IBM Plex Mono"', 'ui-monospace'],
+                    }
+                }
+            }
+        </script>
+        <style type="text/tailwindcss">
+            @tailwind base; /* Preflight will be injected here */
+            @tailwind components;
+            @tailwind utilities;
+            .grid-bg {
+                background-size: 40px 40px;
+                background-image:
+                        linear-gradient(to right, #222222 1px, transparent 1px),
+                        linear-gradient(to bottom, #222222 1px, transparent 1px);
+            }
+        </style>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-GYRE6XZEDY"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-GYRE6XZEDY');
+        </script>
+
+        <!-- Facebook Pixel Code -->
+        <script>
+            !function(f,b,e,v,n,t,s)
+            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+                n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+                if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+                n.queue=[];t=b.createElement(e);t.async=!0;
+                t.src=v;s=b.getElementsByTagName(e)[0];
+                s.parentNode.insertBefore(t,s)}(window, document,'script',
+                'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '327311522522893');
+            fbq('track', 'PageView');
+        </script>
+        <noscript><img height="1" width="1" style="display:none"
+                       src="https://www.facebook.com/tr?id=327311522522893&ev=PageView&noscript=1"
+        /></noscript>
+        <!-- End Facebook Pixel Code -->
+    </head>
+    <body>
+        <script type="text/javascript" src="./target/scala-2.13/ableton-live-themes-fastopt/main.js"></script>
+    </body>
+</html>
+

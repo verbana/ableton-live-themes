@@ -1,0 +1,39 @@
+name: Build & Deploy Github Pages
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up sbt
+        uses: actions/setup-java@v2
+        with:
+          distribution: 'adopt'
+          java-version: '17'
+
+      - name: Checkout
+        uses: actions/checkout@v2.3.1
+
+      - name: Build
+        run: |
+          sbt fullLinkJS
+
+      - name: Point to optimized JS file
+        run: |
+          sed -i 's/ableton-live-themes-fastopt/ableton-live-themes-opt/g' index.html
+
+      - name: Populate deploy directory
+        run: |
+          mkdir deploy
+          mv index.html deploy
+          mv favicon.ico deploy
+          mv target deploy
+          mv assets deploy
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@4.1.8
+        with:
+          branch: gh-pages
+          folder: deploy
