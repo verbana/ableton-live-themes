@@ -1,0 +1,58 @@
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 0 products, 0 sources, 0 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/main/scala/io/verbana/livethemes/ui/Header.scala, ${BASE}/src/main/scala/io/verbana/livethemes/themes/Dark.scala, ${BASE}/src/main/scala/io/verbana/livethemes/maths/PolynomialSplineFunction.scala, ${BASE}/src/main/scala/io/verbana/livethemes/Gradient.scala, ${BASE}/src/main/scala/io/verbana/livethemes/Chroma.scala, ${BASE}/src/main/scala/io/verbana/livethemes/ui/Index.scala, ${BASE}/src/main/scala/io/verbana/livethemes/ui/Tooltip.scala, ${BASE}/src/main/scala/io/verbana/livethemes/themes/Operator.scala, ${BASE}/src/main/scala/io/verbana/livethemes/ui/ColorInput.scala, ${BASE}/src/main/scala/io/verbana/livethemes/themes/Theme.scala, ${BASE}/src/main/scala/io/verbana/livethemes/ThemeBuilder.scala, ${BASE}/src/main/scala/io/verbana/livethemes/maths/SplineInterpolator.scala, ${BASE}/src/main/scala/io/verbana/livethemes/themes/VuMeters.scala, ${BASE}/src/main/scala/io/verbana/livethemes/themes/Clips.scala, ${BASE}/src/main/scala/io/verbana/livethemes/Main.scala, ${BASE}/src/main/scala/io/verbana/livethemes/maths/PolynomialFunction.scala, ${BASE}/src/main/scala/io/verbana/livethemes/ui/Observable.scala, ${BASE}/src/main/scala/io/verbana/livethemes/ui/DomNodeExtensions.scala, ${BASE}/src/main/scala/io/verbana/livethemes/themes/Light.scala, ${BASE}/src/main/scala/io/verbana/livethemes/themes/Sampler.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(${BASE}/src/main/scala/io/verbana/livethemes/maths/PolynomialFunction.scala, ${BASE}/src/main/scala/io/verbana/livethemes/themes/Light.scala, ${BASE}/src/main/scala/io/verbana/livethemes/ui/Header.scala, ${BASE}/src/main/scala/io/verbana/livethemes/maths/SplineInterpolator.scala, ${BASE}/src/main/scala/io/verbana/livethemes/themes/Clips.scala, ${BASE}/src/main/scala/io/verbana/livethemes/Main.scala, ${BASE}/src/main/scala/io/verbana/livethemes/ui/DomNodeExtensions.scala, ${BASE}/src/main/scala/io/verbana/livethemes/ui/Index.scala, ${BASE}/src/main/scala/io/verbana/livethemes/themes/Operator.scala, ${BASE}/src/main/scala/io/verbana/livethemes/ThemeBuilder.scala, ${BASE}/src/main/scala/io/verbana/livethemes/ui/Observable.scala, ${BASE}/src/main/scala/io/verbana/livethemes/themes/Dark.scala, ${BASE}/src/main/scala/io/verbana/livethemes/ui/Tooltip.scala, ${BASE}/src/main/scala/io/verbana/livethemes/ui/ColorInput.scala, ${BASE}/src/main/scala/io/verbana/livethemes/themes/Theme.scala, ${BASE}/src/main/scala/io/verbana/livethemes/maths/PolynomialSplineFunction.scala, ${BASE}/src/main/scala/io/verbana/livethemes/Chroma.scala, ${BASE}/src/main/scala/io/verbana/livethemes/themes/Sampler.scala, ${BASE}/src/main/scala/io/verbana/livethemes/Gradient.scala, ${BASE}/src/main/scala/io/verbana/livethemes/themes/VuMeters.scala), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0mFull compilation, no sources in previous analysis.[0m
+[0m[[0m[0mdebug[0m] [0m[0mall 20 sources are invalidated[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: [0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all sources: number of invalidated sources > 50.0% of all sources[0m
+[0m[[0m[0mdebug[0m] [0m[0mcompilation cycle 1[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 20 Scala sources to /home/runner/work/ableton-live-themes/ableton-live-themes/target/scala-2.13/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.13:1.5.7:compile for Scala 2.13.7[0m
+[0m[[0m[0minfo[0m] [0m[0mNon-compiled module 'compiler-bridge_2.13' for Scala 2.13.7. Compiling...[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating plain compiler interface for 2.13.7.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > Arguments: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	-d[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_9b7208d7[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-nowarn[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/runner/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.7/scala-library-2.13.7.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/runner/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.5.7/compiler-interface-1.5.7.jar:/home/runner/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.5.0/util-interface-1.5.0.jar:/home/runner/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.13/1.5.7/compiler-bridge_2.13-1.5.7-sources.jar:/home/runner/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.7/scala-compiler-2.13.7.jar:/home/runner/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.7/scala-reflect-2.13.7.jar:/home/runner/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.20.0/jline-3.20.0.jar:/home/runner/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_dcc67973/scala/ZincCompat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_dcc67973/xsbt/API.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_dcc67973/xsbt/AbstractZincFile.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_dcc67973/xsbt/Analyzer.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_dcc67973/xsbt/CallbackGlobal.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_dcc67973/xsbt/ClassName.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_dcc67973/xsbt/Compat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_dcc67973/xsbt/CompilerBridge.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_dcc67973/xsbt/ConsoleBridge.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_dcc67973/xsbt/DelegatingReporter.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_dcc67973/xsbt/Dependency.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_dcc67973/xsbt/ExtractAPI.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_dcc67973/xsbt/ExtractUsedNames.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_dcc67973/xsbt/GlobalHelpers.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_dcc67973/xsbt/InteractiveConsoleBridge.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_dcc67973/xsbt/InteractiveConsoleFactoryBridge.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_dcc67973/xsbt/InteractiveConsoleHelper.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_dcc67973/xsbt/InteractiveConsoleResponse.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_dcc67973/xsbt/JarUtils.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_dcc67973/xsbt/JavaUtils.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_dcc67973/xsbt/LocalToNonLocalClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_dcc67973/xsbt/LocateClassFile.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_dcc67973/xsbt/Log.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_dcc67973/xsbt/Message.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_dcc67973/xsbt/ScaladocBridge.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m      [0m
+[0m[[0m[0minfo[0m] [0m[0m  Compilation completed in 8.357s.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 537c20df for Scala compiler version 2.13.7[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Xplugin:/home/runner/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.13.7/1.8.0/scalajs-compiler_2.13.7-1.8.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/runner/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.7/scala-library-2.13.7.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/runner/work/ableton-live-themes/ableton-live-themes/target/scala-2.13/classes:/home/runner/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-library_2.13/1.8.0/scalajs-library_2.13-1.8.0.jar:/home/runner/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_sjs1_2.13/2.0.1/scala-xml_sjs1_2.13-2.0.1.jar:/home/runner/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-dom_sjs1_2.13/2.0.0/scalajs-dom_sjs1_2.13-2.0.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 13.039206674 s[0m
+[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m
