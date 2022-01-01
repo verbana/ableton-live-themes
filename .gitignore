@@ -1,2 +1,17 @@
 *.class
 *.log
+
+# Intellij
+.idea/
+
+# sbt target folders
+target/
+.bsp/
+
+# Deploy folder for gh pages
+deploy/
+
+# Node files
+
+## Deps
+node_modules/
