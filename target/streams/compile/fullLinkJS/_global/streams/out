@@ -1,26 +1,26 @@
 [0m[[0m[0minfo[0m] [0m[0mFull optimizing /home/runner/work/ableton-live-themes/ableton-live-themes/target/scala-2.13/ableton-live-themes-opt[0m
-[0m[[0m[0mdebug[0m] [0m[0mLinker: Compute reachability: 746032 us[0m
-[0m[[0m[0mdebug[0m] [0m[0mLinker: Assemble LinkedClasses: 39720 us[0m
-[0m[[0m[0mdebug[0m] [0m[0mLinker: Check IR: 388239 us[0m
-[0m[[0m[0mdebug[0m] [0m[0mLinker: 1201625 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mLinker: Compute reachability: 870475 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mLinker: Assemble LinkedClasses: 48577 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mLinker: Check IR: 665990 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mLinker: 1610011 us[0m
 [0m[[0m[0mdebug[0m] [0m[0mOptimizer: Batch mode: true[0m
-[0m[[0m[0mdebug[0m] [0m[0mOptimizer: Incremental part: 238190 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mOptimizer: Incremental part: 331560 us[0m
 [0m[[0m[0mdebug[0m] [0m[0mOptimizer: Optimizing 6358 methods.[0m
-[0m[[0m[0mdebug[0m] [0m[0mOptimizer: Optimizer part: 1665835 us[0m
-[0m[[0m[0mdebug[0m] [0m[0mOptimizer: 1911889 us[0m
-[0m[[0m[0mdebug[0m] [0m[0mRefiner: Compute reachability: 232248 us[0m
-[0m[[0m[0mdebug[0m] [0m[0mRefiner: Assemble LinkedClasses: 9968 us[0m
-[0m[[0m[0mdebug[0m] [0m[0mRefiner: 255576 us[0m
-[0m[[0m[0mdebug[0m] [0m[0mModule Splitter: Calculate Dependency Info: 1754 us[0m
-[0m[[0m[0mdebug[0m] [0m[0mModule Splitter: Analyze Modules: 1489 us[0m
-[0m[[0m[0mdebug[0m] [0m[0mModule Splitter: Assemble Modules: 7290 us[0m
-[0m[[0m[0mdebug[0m] [0m[0mModule Splitter: 11500 us[0m
-[0m[[0m[0mdebug[0m] [0m[0mEmitter: Generate Classes: 635062 us[0m
-[0m[[0m[0mdebug[0m] [0m[0mEmitter: Write trees: 26943 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mOptimizer: Optimizer part: 1405370 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mOptimizer: 1749526 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: Compute reachability: 184431 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: Assemble LinkedClasses: 13552 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: 209507 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mModule Splitter: Calculate Dependency Info: 1963 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mModule Splitter: Analyze Modules: 759 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mModule Splitter: Assemble Modules: 8907 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mModule Splitter: 12676 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: Generate Classes: 733167 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: Write trees: 26779 us[0m
 [0m[[0m[0mdebug[0m] [0m[0mEmitter: Class tree cache stats: reused: 0 -- invalidated: 683[0m
 [0m[[0m[0mdebug[0m] [0m[0mEmitter: Method tree cache stats: reused: 0 -- invalidated: 3696[0m
-[0m[[0m[0mdebug[0m] [0m[0mEmitter: 693960 us[0m
-[0m[[0m[0mdebug[0m] [0m[0mClosure: Create trees): 596640 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: 880922 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mClosure: Create trees): 467972 us[0m
 [0m[[0m[0minfo[0m] [0m[0mClosure: 0 error(s), 0 warning(s)[0m
-[0m[[0m[0mdebug[0m] [0m[0mClosure: Compiler pass: 8996956 us[0m
-[0m[[0m[0mdebug[0m] [0m[0mClosure: Write result: 277634 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mClosure: Compiler pass: 11107925 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mClosure: Write result: 309397 us[0m
