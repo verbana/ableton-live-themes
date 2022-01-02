@@ -12,7 +12,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m	Light.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	PolynomialFunction.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	ColorInput.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Index$$anonfun$$nestedInanonfun$render$9$2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	RGB$StringConversions.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Operator.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	RGB.class[0m
@@ -36,6 +35,7 @@
 [0m[[0m[0mdebug[0m] [0m[0m	Clips.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	HSB.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Index$$anonfun$render$3.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	DomNodeExtensions$DomNodeMethods.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	KnotFunction.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Gradient$.class[0m
@@ -48,7 +48,7 @@
 [0m[[0m[0mdebug[0m] [0m[0m	Operator$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Index.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	ThemeBuilder$Label$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Index$$anonfun$render$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Index$$anonfun$render$5.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	DomNodeExtensions$HTMLInputElementMethods$$anonfun$addInputListener$2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Chroma$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Mobile$.class[0m
@@ -61,18 +61,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m	ColorInput$$anonfun$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	HSB$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Index$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Index$$anonfun$$nestedInanonfun$render$10$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Header$$anonfun$create$2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	ThemeBuilder.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	ColorInput$$anonfun$2.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Index$$anonfun$$nestedInanonfun$render$9$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Observable$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	PolynomialSplineFunction.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	DomNodeExtensions$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Main$$anonfun$main$2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	ThemeBuilderState$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	VuMeters.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Index$$anonfun$$nestedInanonfun$render$10$2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Dark$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Index$$anonfun$render$4.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Observable.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Theme$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Gradient$Midpoint.class[0m
